@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang=="en">
+    <head>
+        <style>
+            html,body {
+                margin:0;
+                padding:0;
+            }
+            .social-icons {
+                    display: flex;
+                    gap: 100px; 
+                    width: 700px;
+                    position: relative;
+                    left: 300px;
+                }
+
+            a:focus{
+                outline: none;
+                background-color: inherit;
+                color: inherit;
+            }
+            .header{
+                height: 35px;
+                background-color:tan;
+                width: 1520px;
+            }
+            a{
+                font-size: 30px;
+            }
+            .login{
+                position: relative;
+                background-color: fuchsia;
+                border-radius: 10px;
+                left: 400px;
+            }
+            .signup{
+                position: relative;
+                left: 400px;
+                background-color: fuchsia;
+                border-radius: 10px;
+                top: -0px;
+            }
+            .signup a:focus{
+                color: white;
+            }
+            .signup a{
+                color: white;
+                text-decoration: none;
+            }
+            .login a{
+                text-decoration: none;
+                color: white;
+            }
+            .nav{
+                position: relative;
+                left: 600px;
+                top: -15px;
+                width: 650px;
+                display: flex;
+                gap: 40px;
+            }
+            a{
+                color: black;
+                text-decoration: none;
+            }
+            .upper-body{
+                position: relative;
+                top: 10px;
+                height: 60px;
+            }
+            .Buy{
+                background-color: yellow;
+            }
+            .search{
+                width: 40px;
+                position: relative;
+                left: 1300px;
+                top: -50px;
+            }
+            .bold{
+                position: relative;
+                top: 20px;
+                left: 300px;
+                width: 1220px;
+                font-size: 30px;
+            }
+            .image{
+                height: 400px;
+            }
+            .download{
+                color:rebeccapurple ;
+            }
+            .aunty{
+                height: 50%;
+                width: 1300px;
+                position: absolute;
+                left: 150px;
+                top:150px
+            }
+            .content{
+                position: relative;
+                left: 500px;
+                width: 980px;
+                top: 120px;
+                color: white;
+            }
+            .click{
+                position: relative;
+                top: -40px;
+            }
+            .consult{
+                background-color:red;
+                position: relative;
+                top: 150px;
+                height: 100px;
+                width: 200px;
+                left: 700px;
+                border-radius: 80px;
+            }
+            .content h1:first-of-type {
+                position: relative;
+                top: -50px;
+                left: 120px;
+                color: yellow;
+                    }
+            .content marquee#t{
+                position: relative;
+                left: -250px;
+                top: -20px;
+                color: red;
+                }
+            .consult:hover{
+                background-color: yellow;
+            }
+            .read{
+                border-radius: 80px;
+                width: 200px;
+                height: 100px;
+                background-color: yellow;
+                position: relative;
+                top: 150px;
+                left: 500px;
+            }
+            .read:hover{
+                background-color: tomato;
+            }
+            .three{
+                position: relative;
+                top: -30px;
+                left: 50px;
+                width: 1430px;
+                height: 150px;
+                background-color: lightpink;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .four h1{
+                color: black;
+            }
+            .four{
+                display: flex;
+                gap: 180px;
+                position: relative;
+                left: 50px;
+            }
+            .yosi{
+                background-color: red;
+                position: relative;
+                top: -680px;
+                left: 1100px;
+                height: 300px;
+                width: 400px;
+            }
+            .world{
+                opacity: 0.2;
+                width: 100px;
+                position: relative;
+                left: 100px;
+                top: 180px;
+            }
+            .about_content{
+                position: relative;
+                left: 120px;
+                top: -600px;
+            }
+            .services{
+                display: flex;
+                gap: 100px;
+                width: 1450px;
+                position: relative;
+                top: -600px;
+            }
+            .services img{
+                width: 400px;
+            }
+            .services img:first-of-type{
+                height: 400px;
+            }
+            .head{
+                position: relative;
+                top: -600px;
+                left: 30px;
+                display: flex;
+                gap: 500px;
+                width: 1000px;
+            }
+            .head h1{
+                background-color: yellow;
+                width: 600px;
+                align-items: center;
+                padding-left: 20px;
+                border-radius: 50px
+            }
+            .head h1:hover{
+                background-color: hotpink;
+            }
+            .head h1#a{
+                position: relative;
+                left: -70px;
+            }
+            .head h1#b{
+                position: relative;
+                left: -180px;
+            }
+            .mela{
+                display: flex;
+                gap: 40px;
+                top: -35px;
+                position: relative;
+                left: 900px;
+                width: 620px;
+            }
+            .content h1#a{
+                width: 350px;
+            }
+            .content h1#t{
+                width: 700px;
+            }
+            
+            .about_content{
+                width: 700px;
+            }
+            .about_image{
+                position: relative;
+                top: -160px;
+            }
+            .click{
+                width: 1000px;
+            }
+            .aboutus{
+                width: 1000px;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <title>
+            Landing Page
+        </title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="social-icons">
+                <a href='#'><i class="fab fa-instagram"></i></a>
+                <a href='#'><i class="fab fa-facebook-f"></i></a>
+                <a href='#'><i class="fab fa-whatsapp"></i></a>
+                <a href='#'><i class="fab fa-linkedin-in"></i></a>
+            </div>         
+            <div class="mela">
+                <div class='login'>
+                    <a href="#">Login</a>
+                </div>
+                <div class='signup'>
+                    <a href="#">Sign up</a>
+                </div>
+            </div>
+            <div class='upper-body'>
+                <div class="bold">
+                    <strong class="Land">LANDING PAGE</strong>
+                </div>
+                <div class="nav">
+                    <a href='#'>Home</a>
+                    <a href='#'>Services</a>
+                    <a href='#'>Contacts</a>
+                    <a href='#'>Pages</a>
+                    <a href="#" class="Buy">Buy Now     </a>
+                </div>
+                <div class='search'>
+                    <a href="#"><span>&#128269;</span></a>
+                </div>
+            </div>
+            <div class="image">
+                <img class='aunty' src='down.jpg'>
+                <div class="content">
+                    <h1 id="a">Consulting Agency</h1>
+                    <h1 id="t">We Are Very Creative in Delivering Our Products</h1>
+                </div>
+                <div class="click">
+                    <button class='read'>Read More</button>
+                    <button class='consult'>Book a Consult</button>
+                </div> 
+            </div>
+            <div class="three">
+                <div class="four">
+                    
+                <div class="bussiness">
+                    <h1>Launching Bussinesses</h1>
+                    <p>Very Successful in it</p>
+                </div>
+                <div class="team">
+                    <h1>Support Team for Leading</h1>
+                    <p>24/7 Ai service along with Human Service</p>
+                </div>
+                <div class="management">
+                    <h1>Time Management</h1>
+                    <p>Very Successful in launching the Projects and<br> 
+                    </bR> finishing the Projects</p>
+                </div></div>
+                
+            </div>
+            <div class="aboutus">
+                <div class="world">
+                    <img src="world.png" alt="">
+                </div>
+                <div class="about_content">
+                    <h2>About Us</h2>
+                    <h3 style='color: red;'>At [Your Startup Name], we specialize in crafting digital solutions that drive growth and innovation.
+                    With a team of seasoned professionals, we offer comprehensive web consulting services, from strategy development to implementation,
+                    ensuring businesses thrive in the digital landscape. Our approach combines cutting-edge technology with creative design, delivering tailored
+                    experiences that resonate with audiences and exceed expectations. Committed to excellence and client satisfaction, we partner with our clients
+                    every step of the way, guiding them through the complexities of the digital world to achieve their goals.</p>
+                </div>
+                <div class="about_image">
+                    <img class="yosi" src='think.png'>
+                </div>
+            </div>
+            <div class="services">
+                <div class="creative">
+                    <img src="CD.png">
+                </div>
+                <div class="user_exp">
+                    <img src="UX.png">
+                </div>
+                <div class="web">
+                    <img src="web.png">
+                </div>
+            </div>
+            <div class="head">
+                <h1>Creative Design</h1>
+                <h1 id="a">User Experience</h1>
+                <h1 id="b">Web Development</h1>
+            </div>
+        </div>
+    </body>
+</html>
